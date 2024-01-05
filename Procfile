@@ -1,0 +1,1 @@
+web application app:streamlit run "app_crop.py"
