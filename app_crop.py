@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-model = pickle.load(open('C:\\Users\\hp\\Desktop\\crop_recommendation\\model_crop.pkl', 'rb'))
+model = pickle.load(open('model_crop.pkl', 'rb'))
 st.title("Crop Recommendation System")
 st.write("Enter the soil and environmental parameters to get a crop recommendation:")
 
